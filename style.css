@@ -1,0 +1,150 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    background-color: aliceblue;
+    justify-content: center;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    background: color #edf1fd;
+    flex-direction: column;
+    justify-content: space-between;
+}
+li{
+    list-style: none;
+    cursor: pointer;
+    background-color: aquamarine;
+}
+a{
+    text-decoration: none;
+}
+button{
+    background-color: rgb(18, 155, 155);
+    padding: 4px 10px;
+    cursor: pointer;
+    color: whitesmoke;
+    border: 1px solid rgb(18, 155, 155);
+    border-radius: 7px;
+    font-weight: 500;
+    width: fit-content;
+}
+button:hover{
+    background-color: #fff;
+    color: black;
+    border: 1px solid black;
+}
+nav{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 0px;
+    background-color: aquamarine;
+    
+   
+}
+nav .logo{
+    font-weight: 700;
+    font-size: 30px;
+    background-color: aquamarine;
+   
+}
+nav ul{
+    display:flex;
+    align-items:center;
+    font-weight: 500;
+    gap: 30px;
+    overflow: auto;
+    background-color: aquamarine;
+
+
+}
+nav ul li:hover{
+    text-decoration: underline;
+    font-weight: 900;
+}
+.search-box{
+    display: flex;
+    gap: 35px;
+    background-color: aquamarine;
+}
+input{
+    padding: 4px 10px; 
+}
+.hero-section{
+    display: flex;
+    align-items: center;
+}
+.hero-section-left h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+.hero-section-left h1 span{
+    color: rgb(18, 155, 155);
+    font-weight: 900;
+    font-size: 2.5rem;
+}
+.hero-section-left p{
+    font-weight: 500;
+}
+.hero-section-left p span{
+    font-weight: 700;
+    font-size: 25px;
+    color: rgb(18, 155, 155);
+}
+.hero-section-right{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    align-items: center;
+    justify-content: center;
+}
+.chat-button{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-top: 15px;
+    margin-left: 200px;
+    width: 200px;
+}
+.hero-section-right img{
+    height: 300px;
+    width: 300px;
+    margin-left: 200px;
+}
+footer{
+    display: flex;
+    align-items: center;
+    padding: 15px 0px;
+    justify-content: space-around;
+}
+footer p{
+    font-weight: 600;
+    margin-left: 400px;
+    display: inline-block;
+}
+.footer ul{
+    display: flex;
+    align-content:center ;
+    gap: 15px;
+}
+    .icon{
+        margin-right: 400px;
+
+    }
+    
+
+nav li a{
+    color: black;
+    background-color: aquamarine;
+}
+#icon-change{
+    color: black;
+}
+
